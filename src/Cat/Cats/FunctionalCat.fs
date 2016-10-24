@@ -8,6 +8,7 @@ open System.Threading.Tasks
 open Microsoft.ServiceFabric
 open Microsoft.ServiceFabric.Actors
 open FSharp.Data.UnitSystems.SI.UnitSymbols
+open Microsoft.ServiceFabric.Actors.Runtime
 
 module CatActions =
     let jump destination state =
